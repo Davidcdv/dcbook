@@ -1,0 +1,82 @@
+body {
+	background-color: #DADADA;
+	background-image:  url("../static/images/bak.jpg");
+	color: rgb(255, 255, 255);
+}
+
+#main-content {
+	min-height: 500px;
+	margin-top: 50px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.table th, td {
+	text-align: center;
+}
+
+.field-error {
+	border-color: #FF0000;
+	margin-bottom: 10px;
+}
+
+.fa-bigger {
+	font-size: 1.5em;
+}
+
+.form-control {
+	color:black;
+	
+}
+.dena{
+	padding-left: 270px;
+	
+}
+ .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Optional: ensures the navbar stays on top of other elements */
+  background-color: #343a40; /* Optional: matches the bg-dark class */
+}
+/* MOBILE RESPONSIVENESS */
+@media screen and (max-width: 992px) {
+    .dena {
+        padding-left: 50px; /* Reduce padding on smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Improve readability on small screens */
+    }
+
+    #main-content {
+        margin-top: 30px; /* Adjust spacing */
+    }
+
+    .dena {
+        padding-left: 20px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+}
+::-webkit-scrollbar {
+  width: 8px;  /* Adjust width */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;  /* Scrollbar color */
+  border-radius: 4px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color on hover */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
